@@ -1,0 +1,242 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #202122;
+    background-color: #FFF;
+}
+
+hr {
+    margin: 0px 0px 8px 0px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+    font-family: "Acme", sans-serif;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    padding-bottom: 6px;
+    font-family: "Acme", sans-serif;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 6px;
+    text-decoration: underline;
+    font-family: "Signika Negative", sans-serif;
+}
+
+h6 {
+    margin: 0px;
+    font-size: 17px;
+    padding-bottom: 18px;
+    font-family: "Acme", sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25.6px;
+    margin-bottom: 12px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+span {
+    font-weight: 700;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3366cc;
+}
+
+a:hover{
+    color: #4b77d6;
+    text-decoration: underline;
+}
+
+ul li {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25.6px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+#navigation ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#navigation li {
+    padding-bottom: 4px; 
+}
+
+#navigation li a {
+    font-size: 16px;  
+}
+
+#sub-navigation {
+    padding-bottom: 0px !important;
+}
+
+#sub-navigation ul {
+    padding-top: 5px !important;
+    padding-left: 15px !important;
+}
+
+#sticky-element {
+    top: 20px;
+    padding: 20px;
+    position: sticky;
+    border: #c8ccd1 4px double;
+}
+
+#sticky-element p {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+#sticky-element label {
+    font-size: 13px;
+    padding-bottom: 4px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+#structure-design {
+    --bs-gutter-x: 0rem;
+}
+
+#bullet-points {
+    margin-bottom: 4px;
+}
+
+#appearance-texts {
+    margin-bottom: 20px;
+}
+
+#appearance-width {
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    padding: 20px 25px;
+    --bs-gutter-x: 0rem;
+}
+
+.contents {
+    padding-right: 15px;
+}
+
+.main {
+    padding: 0px 15px;
+}
+
+.appearance {
+    padding-left: 15px;
+}
+
+.site-subtitle {
+    margin: 6px 0px 0px 0px;
+}
+
+.note {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.structure {
+    float: left;
+    padding-right: 20px;
+}
+
+.design{
+    float: right;
+    padding: 5px 0px 13px 0px;
+    border: #c8ccd1 4px double;
+}
+
+.design img {
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+}
+
+.design p {
+    margin: 0px;
+    padding: 0px 15px;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .main {
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    #structure-design {
+        padding-bottom: 20px;
+    }
+
+    .structure {
+        padding-right: 0px;
+    }
+
+    .design{
+        padding: 15px;
+    }
+
+    .design img {
+        width: 18%;
+        display: inline;
+        padding-bottom: 0px;
+    }
+
+    .design p {
+        width: 76%;
+        float: right;
+        font-size: 15px;
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .design{
+        float: inherit;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .design img {
+        width: 30%;
+        display: block;
+        padding-bottom: 12px;
+    }
+    .design p {
+        width: auto;
+        padding: 0px 15px;
+    }
+
+}
